@@ -2,7 +2,7 @@
 
 Sample K8 pod creation with the following attributes:
 
-### Container Attributes:
+### Pod Attributes:
 
 - Container Image: nginx
 - ContainerPort: 80
