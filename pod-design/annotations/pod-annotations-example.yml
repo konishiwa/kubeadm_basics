@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: annotations-pod
+  annotations: 
+    owner: ruka
+    git-commit: abcd 
+spec: 
+  containers:
+  - name: nginx
+    image: nginx 
